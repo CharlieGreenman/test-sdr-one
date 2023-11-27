@@ -41,6 +41,9 @@
       ],
       "@test-sdr-one/data-graphql": [
         "libs/data-graphql/src/index.ts"
+      ],
+      "@test-sdr-one/data-models": [
+        "libs/data-models/src/index.ts"
       ]
     }
   },
