@@ -1,5 +1,21 @@
+<test-sdr-one-global-header
+  (sideNavToggle)="sideNavToggle()"
+></test-sdr-one-global-header>
 <div class="wrapper">
   <div class="container">
-    
+    <test-sdr-one-global-sidenav [opened]="sideNavOpen">
+      <mat-nav-list sidenav>
+        <a
+          mat-list-item
+          routerLinkActive="active-link"
+          routerLink="/"
+          (click)="sideNavToggle()"
+        >
+          <span class="App__sidenav-text">Home</span>
+        </a>
+      </mat-nav-list>
+      <router-outlet></router-outlet>
+    </test-sdr-one-global-sidenav>
   </div>
 </div>
+<test-sdr-one-global-footer> </test-sdr-one-global-footer>
