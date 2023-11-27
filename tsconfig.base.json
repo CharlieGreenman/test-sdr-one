@@ -35,6 +35,9 @@
       ],
       "@test-sdr-one/data-access": [
         "libs/data-access/src/index.ts"
+      ],
+      "@test-sdr-one/data-services": [
+        "libs/data-services/src/index.ts"
       ]
     }
   },
