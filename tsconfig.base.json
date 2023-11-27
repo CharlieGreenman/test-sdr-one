@@ -20,6 +20,9 @@
     "paths": {
       "@test-sdr-one/common/styles": [
         "libs/common/styles/src/index.ts"
+      ],
+      "@test-sdr-one/common/ui": [
+        "libs/common/ui/src/index.ts"
       ]
     }
   },
